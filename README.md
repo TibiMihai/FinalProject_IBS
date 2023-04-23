@@ -90,7 +90,7 @@ validation sample (out of sample).
 
 The summary graph is presented as follows:
 
-![Screenshot](image.png)
+![Screenshot](https://github.com/TibiMihai/FinalProject_IBS/image.png)
 
 
 
