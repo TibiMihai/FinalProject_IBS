@@ -25,7 +25,7 @@ respectively: financial pattern, 1 year activity development, profitability, com
 
 - How many instances of each type are there?
 
-1558 companies were selected. All companies were not in distress at the beginning of the observation period. At the end, about 10% were in distress, the problem falling under the topic 
+Around 1500 companies were selected. All companies were not in distress at the beginning of the observation period. At the end, about 10% were in distress, the problem falling under the topic 
 of imbalanced data. The selection of train, validation and testing samples was done randomly. The population for this is larger and focused only on one market. The proposed dataset 
 is only a sample. In the selection, several criteria were followed to ensure some representativeness, such as size, financial pattern and local geographical area. However, the dataset
 remains a particular one (related to a certain market, a certain segment of companies, etc.). Each instance consists of nine numerical variables which were chosen to form the basis for forecasting 
