@@ -1,7 +1,5 @@
 # Model Card
 
-See the [example Google model cards](https://modelcards.withgoogle.com/model-reports) for inspiration. 
-
 ## Model Description
 
 The objective of the model is to predict whether or not a certain type of company has to be considered as
@@ -49,7 +47,7 @@ validation sample (out of sample).
 
 The summary graph is presented as follows:
 
-![Screenshot](image1.png)
+![Screenshot](image.png)
 
 
 ## Limitations
