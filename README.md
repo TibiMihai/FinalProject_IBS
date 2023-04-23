@@ -64,7 +64,8 @@ Note:
 	a problem due to the way the ensemble is built;
 	min_sample_split= a small value will reduce the variance of the ensemble, at the cost of a higher individual tree bias
 	min_samples leaf = similar in interpretation to min_sample_split
-	criterion = not a real rule of thumb to know which one to pick, worth trying both
+	criterion = not a real rule of thumb to know which one to pick, worth trying both.
+	
 The hyperparameters optimization was conducted with Bayesian optimization with the default option (Gaussian Process)
 
 ## RESULTS
