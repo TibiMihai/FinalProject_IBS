@@ -37,6 +37,7 @@ mentioned above.
 ## HYPERPARAMETER OPTIMSATION
 
 The following hyperparameters were used:
+
 For SVC : C (regularization parameter), kernel (kernel type used by the algorithm) and gamma (Kernel coefficient 
 for ‘rbf’, ‘poly’ and ‘sigmoid’).
 Note:
@@ -46,25 +47,23 @@ Note:
 	Kernel = is a similarity measure, it means the degree of closenes;
 	Gamma = controls the distance of influence of a single training point. As the gamma decreases, the regions 
 	separating different classes get more generalized.
+	
 For logistic regresion: C (inverse of regularization strenght) and solver
 Note:
 	C = see SVC note;
 	solver = algorithm to use in the optimization problem.
+	
 For Random Forest: n_estimators (number of tree in a forest), max_depth (max depth of a tree), max_features (number 
 of feature to consider for the best split), min_sample_split (minimum number of samples required to split an internal 
 node), min_samples leaf(minimum number of samples required to be at a leaf node), criterion (measurement of the quality 
 of a split)
 Note:
 	n_estimators = as increases lead to a more robust aggregate model with less variance;
-	
 	max_depth = the possible number of feature/value combinations that are taken into account. The deeper the tree, 
 	the more splits it has. In an individual tree this causes overfitting, however in Random Forest, it shouldn't be such 
 	a problem due to the way the ensemble is built;
-	
 	min_sample_split= a small value will reduce the variance of the ensemble, at the cost of a higher individual tree bias
-	
 	min_samples leaf = similar in interpretation to min_sample_split
-	
 	criterion = not a real rule of thumb to know which one to pick, worth trying both
 The hyperparameters optimization was conducted with Bayesian optimization with the default option (Gaussian Process)
 
