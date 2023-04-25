@@ -39,7 +39,7 @@ Being a classification problem with some constrains like imbalanced data and bus
 -	overall performance measured with f1_score (for maximum trade-off between Precision-Recall values).
 
 The performance developed by each model was evaluated on a test sample (out of sample). The best model was 
-selected, respective a Random Forest model, tuned with Bayesian optimization and it was validated out of sample.
+selected, respective a Suppport Vector model, tuned with Bayesian optimization and it was validated out of sample.
 
 As a summary the figures shows as follows:
 Test results: recall_class1(class of interest): 0.61, f1_score_class1(class of interest): 0.5
