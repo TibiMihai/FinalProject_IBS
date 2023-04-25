@@ -69,7 +69,7 @@ The hyperparameters optimization was conducted with Bayesian optimization with t
 ## RESULTS
 
 The performance developed by each model was evaluated on a test sample, meaning out of sample. The best model was 
-selected, respective a Random Forest model, tuned with Bayesian optimization.
+selected, respective a Support Vector model, tuned with Bayesian optimization.
 
 
 ## (OPTIONAL: CONTACT DETAILS)
